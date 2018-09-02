@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4797ad72-7e48-438c-b0b1-64b9a8b6e046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{58740f90-66ec-4405-9e0c-a52510bfb62a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ca2plugincontainer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ca2plugincontainer_host.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include=".\ca2plugincontainer_application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ca2plugincontainer_application.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ca2plugincontainer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ca2plugincontainer_host.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\ca2plugincontainer.rc">
+      <Filter>Source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

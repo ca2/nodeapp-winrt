@@ -1,0 +1,14 @@
+**/.vs
+**/.DS_Store
+.DS_Store
+._.DS_Store
+*.suo
+*.ipch
+*.psess
+*.vspx
+*.ilk
+*.tmp
+*.appx
+*.appxbundle
+browse.vc.db
+solution.vc.db*

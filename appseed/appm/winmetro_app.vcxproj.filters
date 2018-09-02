@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>0c77c3fc-9207-47a1-8413-9a72e4146e0e</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2af29f55-dd02-4636-bf01-a60b200f71f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62b927ba-9070-4aa8-a927-f3670939250e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SimplePixelShader.hlsl" />
+    <FxCompile Include="SimpleVertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\thirdparty\binary\m_freetype.dll" />
+    <None Include="..\..\stage\matter\msvc++\msvcp110d.dll" />
+    <None Include="..\..\stage\matter\msvc++\msvcr110d.dll" />
+    <None Include="..\..\stage\matter\msvc++\vccorlib110d.dll" />
+    <None Include="winmetro_app.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Logo150.png" />
+    <Image Include="assets\Splash-Screen-620-300.png" />
+    <Image Include="assets\SmallLogo30.png" />
+    <Image Include="assets\Wide-310-150.png" />
+    <Image Include="assets\Notification24.png" />
+    <Image Include="assets\ca2-5c-49.png" />
+  </ItemGroup>
+</Project>
