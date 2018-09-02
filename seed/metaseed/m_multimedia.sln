@@ -15,8 +15,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "..\..\..\app\appsee
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "draw2d_direct2d", "..\..\..\app\appseed\draw2d_direct2d\w_draw2d_direct2d.vcxproj", "{BA9BFF50-1888-4722-8DEE-73A3B5B32BCB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wndfrm_core", "..\..\..\app-core\appseed\wndfrm_core\w_wndfrm_core.vcxproj", "{B2D7833B-9B59-4826-BBDF-C270A2115E86}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wndfrm_rootkiller", "..\..\..\app-core\appseed\wndfrm_rootkiller\w_wndfrm_rootkiller.vcxproj", "{9B132A32-0C6E-4FD1-A580-E7D115794894}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gcom", "..\..\..\app-core\appseed\gcom\w_gcom.vcxproj", "{B7AFCEFA-8451-7723-8F97-4543BB980265}"
@@ -78,10 +76,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app_core_auraverse", "..\..
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winmetro_app_core_auraverse", "..\..\..\app-core\appseed\auraverse\w_winmetro_auraverse.vcxproj", "{5FE5F9C4-0300-453A-9BDE-6AF7FDBF31E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wndfrm_core", "..\..\..\app\appseed\wndfrm_core\w_wndfrm_core.vcxproj", "{B2D7833B-9B59-4826-BBDF-C270A2115E86}"
+EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		basis|ARM = basis|ARM
 		basis|Win32 = basis|Win32
@@ -202,24 +199,6 @@ Global
 		{BA9BFF50-1888-4722-8DEE-73A3B5B32BCB}.stage|Win32.Build.0 = stage|Win32
 		{BA9BFF50-1888-4722-8DEE-73A3B5B32BCB}.stage|x64.ActiveCfg = stage|x64
 		{BA9BFF50-1888-4722-8DEE-73A3B5B32BCB}.stage|x64.Build.0 = stage|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|ARM.ActiveCfg = basis|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|ARM.Build.0 = basis|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|Win32.ActiveCfg = basis|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|Win32.Build.0 = basis|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|x64.ActiveCfg = basis|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|x64.Build.0 = basis|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|ARM.ActiveCfg = stage|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|ARM.Build.0 = stage|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|Win32.ActiveCfg = stage|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|Win32.Build.0 = stage|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|x64.ActiveCfg = stage|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|x64.Build.0 = stage|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|ARM.ActiveCfg = stage|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|ARM.Build.0 = stage|ARM
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|Win32.ActiveCfg = stage|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|Win32.Build.0 = stage|Win32
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|x64.ActiveCfg = stage|x64
-		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|x64.Build.0 = stage|x64
 		{9B132A32-0C6E-4FD1-A580-E7D115794894}.basis|ARM.ActiveCfg = basis|ARM
 		{9B132A32-0C6E-4FD1-A580-E7D115794894}.basis|ARM.Build.0 = basis|ARM
 		{9B132A32-0C6E-4FD1-A580-E7D115794894}.basis|Win32.ActiveCfg = basis|Win32
@@ -724,12 +703,33 @@ Global
 		{5FE5F9C4-0300-453A-9BDE-6AF7FDBF31E8}.stage|x64.ActiveCfg = stage|x64
 		{5FE5F9C4-0300-453A-9BDE-6AF7FDBF31E8}.stage|x64.Build.0 = stage|x64
 		{5FE5F9C4-0300-453A-9BDE-6AF7FDBF31E8}.stage|x64.Deploy.0 = stage|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|ARM.ActiveCfg = basis|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|ARM.Build.0 = basis|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|Win32.ActiveCfg = basis|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|Win32.Build.0 = basis|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|x64.ActiveCfg = basis|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.basis|x64.Build.0 = basis|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|ARM.ActiveCfg = basis|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|ARM.Build.0 = basis|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|Win32.ActiveCfg = basis|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|Win32.Build.0 = basis|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|x64.ActiveCfg = basis|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.cover|x64.Build.0 = basis|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|ARM.ActiveCfg = stage|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|ARM.Build.0 = stage|ARM
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|Win32.ActiveCfg = stage|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|Win32.Build.0 = stage|Win32
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|x64.ActiveCfg = stage|x64
+		{B2D7833B-9B59-4826-BBDF-C270A2115E86}.stage|x64.Build.0 = stage|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84180736-40D4-4695-B1BF-6FD409E451F5}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
